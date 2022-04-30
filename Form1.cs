@@ -34,14 +34,14 @@ namespace FinalmouseFirmwareUtility
                 comboBox1.Items.Add(firmware.Value);
             }
 
-            comboBox1.SelectedIndex = 3;
+            comboBox1.SelectedIndex = firmwareDictionary.Count - 1;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             var updatedPorts = SerialPort.GetPortNames().ToList();
 
-            dfuPorts = updatedPorts.Where(x => !currentPorts.Any(y => x == y)).ToList();
+            dfuPorts = updatedPorts.Where(x => !currentPorts.Contains(x)).ToList();
 
             if (dfuPorts.Count() > 0)
             {
@@ -66,7 +66,7 @@ namespace FinalmouseFirmwareUtility
 
                 MessageBox.Show(msgText, msgTitle);
 
-                button2.Enabled=false;
+                button2.Enabled = false;
             }
         }
 
