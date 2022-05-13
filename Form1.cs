@@ -101,6 +101,7 @@ namespace FinalmouseFirmwareUtility
             firmwareDictionary.Add("fm6_dfu_package_1.2.0_200ms.zip", "1.2.0 - 200ms scroll wheel delay");
             firmwareDictionary.Add("fm6_dfu_package_1.2.0_iamadumbass_debounce.zip", "1.2.0 - 1.5ms sym defer");
             firmwareDictionary.Add("fm6_dfu_package_1.2.5.zip", "1.2.5 - Poseidon/Starlight Pro");
+            firmwareDictionary.Add("fm6_dfu_package_1.2.6.zip", "1.2.6 - Scroll wheel sensitivity fix");
 
             return firmwareDictionary;
         }
