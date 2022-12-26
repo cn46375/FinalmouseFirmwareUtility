@@ -97,7 +97,7 @@ namespace FinalmouseFirmwareUtility
         {
             var firmwareDictionary = new Dictionary<string, string>();
 
-            firmwareDictionary.Add("fm6_dfu_package_1.2.6.zip", "1.2.6");
+            firmwareDictionary.Add("fm6_dfu_package_1.3.1_competition.zip", "Competition+");
 
             return firmwareDictionary;
         }

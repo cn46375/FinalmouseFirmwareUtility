@@ -28,10 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Resources\FinalmouseZeus.png">
+    <None Update="Resources\fm6_dfu_package_1.3.1_competition.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\fm6_dfu_package_1.2.6.zip">
+    <None Update="Resources\LastLegend.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Resources\nrfutil.exe">

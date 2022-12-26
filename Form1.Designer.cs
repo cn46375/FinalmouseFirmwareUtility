@@ -152,7 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::FinalmouseFirmwareUtility.Properties.Resources.FinalmouseZeus;
+            this.BackgroundImage = global::FinalmouseFirmwareUtility.Properties.Resources.LastLegend;
             this.ClientSize = new System.Drawing.Size(447, 612);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
